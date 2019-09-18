@@ -9,6 +9,12 @@ P {
 	font-style: large;
 	text-align: center;
 }
+.white-text-with-blue-shadow {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+  font: 1.5em Georgia, serif;
+}
+
 .Class_A {
 color: purple;
 }
