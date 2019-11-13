@@ -1,1 +1,0 @@
-document.write('Living the Damn Dream in Portland Oregon!');

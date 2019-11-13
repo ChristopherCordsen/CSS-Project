@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Page 388</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            img {
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+                -web    -webkitfilter: grayscale(100%); 
+                filter:grayscale;
+                border: 1px solid red;
+                padding: 15px;
+                border-radius: 25px;
+            }
+            p.boldish {
+                font-weight: bold;
+            }
+
+            table, td, th {
+                border: 3px solid yellow;
+                padding: 15px;
+                text-align: center;
+            }
+
+            td {
+                background-color: turquoise;
+            }
+
+            tr {
+                background-color: pink;
+            }
+
+            .container {
+                position: center;
+                text-align:center;
+                color: pink;
+            }
+
+            .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            }
+
+            .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 35%;
+            }
+
+            .navbar a {
+            float: left;
+            display: block;
+            color: Green;
+            text-align: center;
+            padding: 15px 15px;
+            text-decoration: none;
+            font-size: 20px;
+            }
+
+            .navbar a:hover {
+            background: hotpink;
+            color: black;
+            }
+
+            .main {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px; 
+            }
+
+            * {
+            box-sizing: border-box;
+            }
+
+            .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 100px; 
+            }
+
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+            h4, h7 {
+                text-align: center;
+                color:white;
+                text-decoration: underline;
+            }
+
+            a:hover {
+                background-color: pink;
+                color: purple;           
+            }
+
+            p {
+                font-weight: 300;
+                line-height: 30px;
+                padding-bottom: 15px;
+            }
+
+            .photo {
+                position: relative;
+                line-height: 0;
+                margin-bottom: 2cm;
+                overflow: hidden;
+                border-radius: 6px;
+                padding: 2px;
+                border: 1px solid red;
+                background-color: hotpink;
+                box-shadow: 2px 2px 10px red;
+            }
+
+            .photo-container  {
+                text-align: center;
+                margin: 15px auto;
+                width: 300px;
+                height: 169px;
+            }
+
+            .photo-container img {
+                max-width: 100%;
+                width: 300px;
+                height: 169px;
+            }
+
+            .photo-overlay {
+                color: red;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                padding-left: 15px;
+                padding-right: 15px;
+                justify-content: center;
+                align-items: center;
+                background: rgba(0,0,0, .5);
+            }
+
+            .white-head {
+                color: red;
+                margin-top: 5%;
+                line-height: 30px;
+                padding-bottom: 20px;
+            }
+
+            .photo-overlay {
+                opacity: 0;
+                transition: opacity .5s;
+                border-radius: 18px;
+                cursor: pointer;
+            }
+
+            .photo-overlay p {
+                width:100%;
+                height: 100%;
+                color: hotpink;
+            }
+
+            .photo-overlay:hover {
+                opacity: 1;
+            }
+
+            .photo img {
+                transition: transform .5s;
+                transform-origin: 50% 50%;
+            }
+
+            .photo:hover img {
+                transform: scale(1.1);
+            }
+
+        </style>
+    </head>
+	<body>
+        <header>
+			<h1 align="center">Page388</h1>
+			<p align="center">Assignment / Challenge</p>
+		</header>
+            <!--Navigation-->
+            <div class="navbar">
+                <a href="#home">Home</a>
+                <a href="#news">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        <!--End Navigation-->
+         
+            <div class="container">
+             <img src="cultimage.jpg" alt="" width="100%">
+                <div class="centered">Cults</div>
+            </div>
+         <!--Table-->
+        <table style="width:50%">
+            <tr>
+                <th>Cult Name</th>
+                <th>Cult Age</th>
+                <th>Main Magic</th>
+            </tr>
+            <tr>
+                <td>Artists</td>
+                <td>37</td>
+                <td>Art</td>
+            </tr>
+             <tr>
+                <td>Musicians</td>
+                <td>38</td>
+                <td>Music</td>
+            </tr>
+             <tr>
+                <td>Dancers</td>
+                <td>30</td>
+                <td>Dance</td>
+            </tr>
+        <!--End Table-->
+        <!--Columns-->
+             <div class="row">
+                 <div class="column" style="background-color:lightblue;">
+                     <h4>Column 1</h4>
+                     <h7>This is a random column that I created!</h7>
+                 </div>
+                <div class="column" style="background-color:lightgreen;">
+                    <h4>Column 2</h4>
+                     <h7>and this is another one!</h7>
+                </div>
+            </div>
+        <!--End Columns-->
+        <!--Photo Overlay-->
+            <div class="photo-container">
+                <div class="photo">
+                 <img src="./Images/hearts.jpg" alt="">
+                    <div class="photo-overlay">
+                     <h3 class="white-head">HEART</h3>
+                     <p>This is a heart</p>
+                     </div>
+                 </div>
+            </div>
+       <!--End Photo Overlay-->
+
+       <!--Video-->
+        <video width="320" height="240" controls loop>
+            <source src="Pexels Videos 1494284.mp4" type="video/mp4">
+         </video>
+       <!--End Video-->
+
+        <footer>
+            <div>
+            <p class="boldish" align="center">Christopher Cordsen</p>
+            <p align="center">Contact info: <a href="https://www.w3schools.com/tags/tag_footer.asp">My Info</a></p>
+                 <a href="https://www.merriam-webster.com/dictionary/tired">Kinda Tired</a>
+            </div>
+        </footer> 
+        
+    </body>
+</html>

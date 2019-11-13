@@ -1,18 +1,15 @@
 table {
-	border: 1px solid orange;
+	border: 1px Turquoise;
 }
-
 td:hover {
-	background-color:pink;
-	color: black;
+	background-color: SpringGreen;
+	color: Violet;
 }
-
 tr, th {
-	background-color: hotpink;
-	color: white;
+	background-color: black;
+	color: Violet;
 }
-
-tr, td {
-	background-color: black;	
-	color: aqua;
+tr, td	{
+	background-color: SlateGrey;
+	color: YellowGreen;
 }
